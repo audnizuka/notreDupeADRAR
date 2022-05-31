@@ -2,10 +2,15 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+body{
+    background-color: #ADADAD;
+}
+
 header{
-    background-color: #FAFAFA;
+    background-color: #333333;
     display: flex;
-    margin-bottom: 20px;
+    padding: 20px;
+    margin: 10px;
 }
 
 nav{
@@ -35,6 +40,10 @@ main{
     gap: 20px;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 3fr;
+}
+
+main div{
+    background-color: #FAFAFA;
 }
 
 #presentation{
